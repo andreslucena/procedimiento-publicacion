@@ -1,8 +1,4 @@
-Procedimiento de publicación de un documento
-
-DRDI
-
-# Google Drive 
+# 1. Elaboración: Google Drive 
 
 En estos pasos convertiremos un documento de Google Drive (en formato ODT o DOC) a formato Markdown. 
 
@@ -16,14 +12,12 @@ En estos pasos convertiremos un documento de Google Drive (en formato ODT o DOC)
 
 ![image alt text](image_0.png)
 
-5. Ir a revisar la bandeja de entrada del correo que tenemos asociada con esa cuenta de Google.
+![image alt text](image_1.png)
 
-6. Recibiremos un fichero con extensión .md, junto con las imágenes que se hayan utilizado en ese documento.
+5. Ir a revisar la bandeja de entrada del correo que tenemos asociada con esa cuenta de Google, habremos recibido un correo con asunto "Markdown exported: Nombre del documento". En ese correo tendremos un fichero con extensión .md, junto con las imágenes que se hayan utilizado en ese documento.
 
-Gitbook 
+![image alt text](image_2.png)
 
-7. Importar estos documentos como proyecto de Gitbook 
+El fichero Markdown es de texto plano, por lo que tendremos que abrirlo con herramientas como Notepad (bloc de notas), Notepad++, SublimeText, Atom, etc. 
 
-Daux.io
 
-8. Importar estos documentos como proyecto de Gitbook 
