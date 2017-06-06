@@ -1,5 +1,3 @@
-# 2. Publicación en Markdown: GitHub Pages - Daux.io
-
 En estos pasos tomaremos los ficheros Markdown generados en el paso anterior y lo publicaremos a través de la plataforma Github. 
 
 1. Iniciar sesión en GitHub. 
@@ -18,7 +16,7 @@ En estos pasos tomaremos los ficheros Markdown generados en el paso anterior y l
 
 ![image alt text](image_6.png)
 
-2. Guardamos los cambios a través del botón "Commit new file". Opcionalmente se puede agregar una explicación de ha que se ha debido el cambio, principalmente para tener un histórico de las explicaciones de cara al futuro. 
+2. Guardar los cambios a través del botón "Commit new file". Opcionalmente se puede agregar una explicación de ha que se ha debido el cambio, principalmente para tener un histórico de las explicaciones de cara al futuro. 
 
 ![image alt text](image_7.png)
 
@@ -26,7 +24,7 @@ En estos pasos tomaremos los ficheros Markdown generados en el paso anterior y l
 
 ![image alt text](image_8.png)
 
-4. Para subir la imagen podemos hacerlo con el boton "Upload file". 
+4. Para subir las imágenes podemos hacerlo con el boton "Upload file". 
 
 ![image alt text](image_9.png)
 
@@ -42,9 +40,9 @@ En estos pasos tomaremos los ficheros Markdown generados en el paso anterior y l
 
 ![image alt text](image_12.png)
 
-8. Continuaremos trabajando subiendo las imágenes y demás secciones. Podemos dividir el documento en distintas secciones siguiendo los nombres de "02_XXX.md". 
+8. Continuar trabajando subiendo las imágenes y demás secciones. Podemos dividir el documento en distintas secciones siguiendo los nombres de "02_XXX.md". 
 
-9. Yendo a la opción de "Settings"; configuraremos el repositorio de Github para que genere el sitio de Github Pages a través del directorio docs/ 
+9. Yendo a la opción de "Settings", configurar el repositorio de Github para que genere el sitio de Github Pages a través del directorio docs/ 
 
 ![image alt text](image_13.png)
 
@@ -56,7 +54,7 @@ En estos pasos tomaremos los ficheros Markdown generados en el paso anterior y l
 # daux generate --source source/ --destination docs
 ```
 
-11. Publicaremos a Github Pages usando git: 
+11. Publicar a Github Pages usando git:
 
 ```
 # git push origin master 

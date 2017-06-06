@@ -1,5 +1,3 @@
-# 1. Elaboración: Google Drive 
-
 En estos pasos convertiremos un documento de Google Drive (en formato ODT o DOC) a formato Markdown. 
 
 1. Importar el documento en formato ODT o DOC en Google Drive. 
@@ -19,5 +17,3 @@ En estos pasos convertiremos un documento de Google Drive (en formato ODT o DOC)
 ![image alt text](image_2.png)
 
 El fichero Markdown es de texto plano, por lo que tendremos que abrirlo con herramientas como Notepad (bloc de notas), Notepad++, SublimeText, Atom, etc. 
-
-
