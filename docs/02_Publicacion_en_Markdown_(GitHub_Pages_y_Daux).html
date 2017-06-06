@@ -4,7 +4,7 @@
 <!--[if IE 8]>          <html class="no-js ie8 oldie" lang="en"> <![endif]-->
 <!--[if gt IE 8]><!-->  <html class="no-js" lang="en"> <!--<![endif]-->
 <head>
-    <title>Publicacion en PDF Gimli - Procedimiento de publicación de un documento</title>
+    <title>02 Publicacion en Markdown (GitHub Pages y Daux) - Procedimiento de publicación de un documento</title>
     <meta name="description" content="Direcció de Recerca, Desenvolupament i Innovació del Àrea de Drets de Ciutadania, Participació i Transparència del Ajuntament de Barcelona" />
     <meta name="author" content="Direcció de Recerca, Desenvolupament i Innovació del Àrea de Drets de Ciutadania, Participació i Transparència del Ajuntament de Barcelona">
     <meta charset="UTF-8">
@@ -46,7 +46,7 @@
 
         <div class="Collapsible__content">
             <!-- Navigation -->
-            <ul class='Nav'><li class='Nav__item '><a href="Resumen.html">Resumen</a></li><li class='Nav__item '><a href="Elaboracion_Google_Drive.html">Elaboracion Google Drive</a></li><li class='Nav__item '><a href="Publicacion_en_Markdown_GitHub_Pages_Daux.html">Publicacion en Markdown GitHub Pages Daux</a></li><li class='Nav__item Nav__item--active'><a href="Publicacion_en_PDF_Gimli.html">Publicacion en PDF Gimli</a></li></ul>
+            <ul class='Nav'><li class='Nav__item '><a href="Resumen.html">Resumen</a></li><li class='Nav__item '><a href="01_Elaboracion_(Google_Drive).html">01 Elaboracion (Google Drive)</a></li><li class='Nav__item Nav__item--active'><a href="02_Publicacion_en_Markdown_(GitHub_Pages_y_Daux).html">02 Publicacion en Markdown (GitHub Pages y Daux)</a></li><li class='Nav__item '><a href="03_Publicacion_en_PDF_(TBD).html">03 Publicacion en PDF (TBD)</a></li></ul>
 
             <div class="Links">
                 
@@ -64,21 +64,82 @@
                 <article class="Page">
 
     <div class="Page__header">
-        <h1><a href="Publicacion_en_PDF_Gimli.html">Publicacion en PDF Gimli</a></h1>
+        <h1><a href="02_Publicacion_en_Markdown_(GitHub_Pages_y_Daux).html">02 Publicacion en Markdown (GitHub Pages y Daux)</a></h1>
                     </div>
 
 
     <div class="s-content">
-        <h1 id="page_3.+Publicaci%C3%B3n+en+PDF%3A+Gimli">3. Publicación en PDF: Gimli</h1>
-<p>En estos pasos convertiremos los ficheros Markdown a PDF.  <strong>FALTA</strong>** TENER UNA HOJA CSS CON LOS ESTILOS PARA QUE LO USE GIMLI U OTRO PROGRAMA  O LO QUE SEA.  **</p>
-<p>BCNROC. Repositori Obert de Coneixement de l'Ajuntament de Barcelona</p>
-<p>Importar el documento en formato PDF, ODT o DOC en</p>
-<p><a href="https://bcnroc.ajuntament.barcelona.cat/jspui/" class="external">https://bcnroc.ajuntament.barcelona.cat/jspui/</a></p>
+        <p>En estos pasos tomaremos los ficheros Markdown generados en el paso anterior y lo publicaremos a través de la plataforma Github.</p>
+<ol>
+<li>
+<p>Iniciar sesión en GitHub.</p>
+</li>
+<li>
+<p>Crear un nuevo repositorio en <a href="https://github.com/new" class="external">https://github.com/new</a></p>
+</li>
+</ol>
+<p><img src="image_3.png" alt="image alt text" /></p>
+<ol start="3">
+<li>Crear el fichero 01_Metadatos.md dentro del directorio docs/. Para hacerlo hace falta escribir como nombre de fichero &quot;docs/01_Metadatos.md&quot;</li>
+</ol>
+<p><img src="image_4.png" alt="image alt text" /></p>
+<p><img src="image_5.png" alt="image alt text" /></p>
+<ol>
+<li>Pegar el contenido del documento recibido por en el correo electrónico.</li>
+</ol>
+<p><img src="image_6.png" alt="image alt text" /></p>
+<ol start="2">
+<li>Guardar los cambios a través del botón &quot;Commit new file&quot;. Opcionalmente se puede agregar una explicación de ha que se ha debido el cambio, principalmente para tener un histórico de las explicaciones de cara al futuro.</li>
+</ol>
+<p><img src="image_7.png" alt="image alt text" /></p>
+<ol start="3">
+<li>Una vez se crea el fichero se verá el listado de ficheros.</li>
+</ol>
+<p><img src="image_8.png" alt="image alt text" /></p>
+<ol start="4">
+<li>Para subir las imágenes podemos hacerlo con el boton &quot;Upload file&quot;.</li>
+</ol>
+<p><img src="image_9.png" alt="image alt text" /></p>
+<ol start="5">
+<li>En esta pantalla ya podremos subir los ficheros.</li>
+</ol>
+<p><img src="image_10.png" alt="image alt text" /></p>
+<ol start="6">
+<li>Una vez subidos los veremos en esta pantalla, y una vez más debemos darle al botón de &quot;Commit new file&quot;</li>
+</ol>
+<p><img src="image_11.png" alt="image alt text" /></p>
+<ol start="7">
+<li>Una vez subida la imagen podremos verla a través de la propia interfaz de Github.</li>
+</ol>
+<p><img src="image_12.png" alt="image alt text" /></p>
+<ol start="8">
+<li>
+<p>Continuar trabajando subiendo las imágenes y demás secciones. Podemos dividir el documento en distintas secciones siguiendo los nombres de &quot;02_XXX.md&quot;.</p>
+</li>
+<li>
+<p>Yendo a la opción de &quot;Settings&quot;, configurar el repositorio de Github para que genere el sitio de Github Pages a través del directorio docs/</p>
+</li>
+</ol>
+<p><img src="image_13.png" alt="image alt text" /></p>
+<p><img src="image_14.png" alt="image alt text" /></p>
+<ol start="10">
+<li>En caso de que no tengamos el repositorio en local, lo clonaremos, instalaremos el daux y ejecutaremos el generador con el siguiente comando:</li>
+</ol>
+<pre><code># daux generate --source source/ --destination docs
+</code></pre>
+<ol start="11">
+<li>Publicar a Github Pages usando git:</li>
+</ol>
+<pre><code># git push origin master 
+</code></pre>
+<ol start="12">
+<li>Tener en cuenta que para ver estos cambios publicados en Github Pages deben pasar varios minutos para verse reflejados.</li>
+</ol>
     </div>
 
         <nav>
         <ul class="Pager">
-            <li class=Pager--prev><a href="Publicacion_en_Markdown_GitHub_Pages_Daux.html">Previous</a></li>                    </ul>
+            <li class=Pager--prev><a href="01_Elaboracion_(Google_Drive).html">Previous</a></li>            <li class=Pager--next><a href="03_Publicacion_en_PDF_(TBD).html">Next</a></li>        </ul>
     </nav>
     </article>
 

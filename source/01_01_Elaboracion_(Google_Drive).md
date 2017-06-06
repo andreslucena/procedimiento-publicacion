@@ -17,3 +17,5 @@ En estos pasos convertiremos un documento de Google Drive (en formato ODT o DOC)
 ![image alt text](image_2.png)
 
 El fichero Markdown es de texto plano, por lo que tendremos que abrirlo con herramientas como Notepad (bloc de notas), Notepad++, SublimeText, Atom, etc. 
+
+6. Una vez se haya exportado y se empieza a trabajar con Makdown se recomienda dejar de trabajar en el Google Drive, ya que es mucho esfuerzo llevar los cambios en los textos en los dos formatos. 

@@ -60,5 +60,6 @@ En estos pasos tomaremos los ficheros Markdown generados en el paso anterior y l
 # git push origin master 
 ```
 
+12. Tener en cuenta que para ver estos cambios publicados en Github Pages deben pasar varios minutos para verse reflejados.
 
 
